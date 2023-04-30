@@ -758,12 +758,14 @@ button {
   color: var(--white-background);
   margin-bottom: 16px;
 }
+
 .subscribe-section {
   display: flex;
-  justify-content: flex-start;
 }
+
 /* .subscribe-mail {
 } */
+
 .subscribe-mail-box {
   width: 264px;
   height: 40px;
@@ -840,7 +842,7 @@ button {
   width: 408px;
   min-height: 576px;
 
-  padding: 24px;
+  padding: 72px 24px 24px 24px;
   position: absolute;
   top: 50%;
   left: 50%;
@@ -889,7 +891,7 @@ button {
   text-align: center;
   letter-spacing: 0.02em;
   color: var(--modal-overlay);
-  margin-top: 48px;
+  /* margin-top: 48px; */
   margin-bottom: 16px;
 }
 
